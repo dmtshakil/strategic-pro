@@ -248,3 +248,68 @@
 .social-icons a:hover {
   color: #ffff; /* Darker shade on hover */
 }
+
+.serve{
+  background-color: #00bc94;
+  height: 80px;
+  width: 80px;
+}
+.social-bar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #00a7a7; /* Matches your example */
+  padding: 10px 0;
+  border-radius: 0 10px 10px 0;
+  z-index: 1000;
+}
+
+.social-link {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-link.facebook:hover {
+  color: #1d59da;
+}
+.social-link.twitter:hover {
+  color: #000000;
+}
+.social-link.linkedin:hover {
+  color: #0a66c2;
+}
+.social-link.instagram:hover {
+  color: #c32aa3;
+}
+.social-link.whatsapp:hover {
+  color: #25d366;
+}
+.social-link.pinterest:hover {
+  color: #ee4056;
+}
+
+
+
+
+
+
+.rounded-circle {
+  border: 3px solid #ddd;
+}
+
+.text-warning {
+  font-size: 18px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+  
