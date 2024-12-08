@@ -28,6 +28,7 @@
 .dropdown:hover .dropdown-content {
   display: flex;
   justify-content: center;
+  box-shadow: 0 0 15px #fffeed;
 }
 .nav .nav-link{
   color: #58fff4;
@@ -88,6 +89,9 @@
 .card .button-color:hover{
   background-color: rgb(6, 128, 128);
   color:white;
+  text-shadow: 0 0 5px #ffee10;
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #ffee10;
 }
 
 .dropdown-content .sub-color{
@@ -107,17 +111,13 @@
 }
 
 .my-about{
-  border: 2px solid #ffffff;
   color: rgb(255, 255, 255);
-  background-color: #2a3d40;
-  font-weight: 500;
-  font-size: 28px;
+  font-weight: 300;
+  font-size: 24px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  align-items: center;
-  margin: 500px;
 }
 .my-about-small{
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   color: rgb(255, 255, 255);
   background-color: #2a3d40;
   font-weight: 200;
@@ -312,4 +312,54 @@
   border-radius: 50%;
 }
 
-  
+
+.contact-section {
+  padding: 50px;
+  background-color: #2a3d40;
+  border-radius: 10px;
+}
+.contact-details i {
+  font-size: 24px;
+  color: #78f3e9;
+}
+.contact-details p {
+  margin: 0;
+  font-size: 22px;
+}
+.contact-form input, .contact-form select, .contact-form textarea {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #58fff4;
+}
+.contact-form {
+  border-radius: 8px;
+  padding: 10px;
+}
+.contact-form button:hover {
+  background-color: #5a21ba;
+}
+
+.social-lin{
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+}
+
+.social-lin.facebook:hover {
+  color: #1d59da;
+}
+.social-lin.twitter:hover {
+  color: #000000;
+}
+.social-lin.linkedin:hover {
+  color: #0a66c2;
+}
+.social-lin.instagram:hover {
+  color: #c32aa3;
+}
+.social-lin.whatsapp:hover {
+  color: #25d366;
+}
+.social-lin.pinterest:hover {
+  color: #ee4056;
+}
